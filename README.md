@@ -44,7 +44,7 @@ If you know some .Bash code I'm sure you will find this useful; If not please be
      &nbsp;2. @Bottom: <i>/root/LeviticusSeed/.LS-0.0.2.sh</i><br>
      &nbsp;3. Save & Exit: Ctrl + O & Ctrl + X<br>
      &nbsp;4. <i>Sudo Screen</i><br>
-     &nbsp;5. LS-0.0.2.sh Should Run Each Time Terminal Starts Similar To 'screenfetch' or 'archey'<br>
+     &nbsp;5. LS-0.0.2.sh Should Run Each Time Terminal Starts: Similar To 'screenfetch' or 'archey'<br>
      &nbsp;6. I will be updating for further stability for this implementation<br>
     
     

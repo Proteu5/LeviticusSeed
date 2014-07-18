@@ -21,7 +21,12 @@ LightGray='\e[0;37m'
 DGray='\e[1;30m'
 White='\e[1;37m'
 
-# Program Body #
+#      . . . : : : LS Program : : : . . .     #
+#< - >< - >< - >< - >< - >< - >< - >< - >< - >#
+# Run./LS-0.0.2.sh                            #
+# Type: zus1                                  #
+# zus1.sh Script Will Run                     #
+###############################################
 
 sleep 1
 clear
@@ -39,6 +44,8 @@ echo
 echo -e "${LightGrey}|${NC}" "${Cyan}Welcome To L.S. SubNet Command Terminal${NC}" "${LightGrey}|${NC}   " ["${Cyan}L${NC}"]ist ["${Cyan}G${NC}"]uide ["${Cyan}H${NC}"]elp ["${Cyan}I${NC}"]nfo "   ${LightGrey}|${NC}"
 echo
 read -p "Leviticus Is Waiting... " RESP
+
+# Edit Below For Customized [l]ist Of Of *.Sh Miner Files #
 if [ "$RESP" = "l" ]; then
   echo "Enumerate Miner *.sh Files Here"
   echo "ZeusMiner-001: Blizzard [zus1]"
@@ -46,6 +53,8 @@ if [ "$RESP" = "l" ]; then
   echo "RockMiner-001: R-Box [rkm1]"
   echo "GridSeedBlade-001: Blazer80 [blz1]"
   echo "This Is Your List Of Units And Their HotKeys"
+  
+# Built In [g]uide For Additional Assistance #
 elif [ "$RESP" = "g" ]; then
   echo "We Are Currently In Pre-Beta: V-0.0.2"
   echo "The Program Does Not Loop"
@@ -65,14 +74,27 @@ elif [ "$RESP" = "g" ]; then
   echo "     j. Test: sudo ./zus1.sh"
   echo "  2. ReCode The LeviticusSource To Your FileSystem Structure"
   echo "- - - - - - - - - - - - - - - - - - - - - - - - - - -"
+  
+# [h]elp Display For Useful Info & Tips #
 elif [ "$RESP" = "h" ]; then
   echo ". . . : : : HelpScreen : : : . . ."
   echo "Required Programs:"
   echo "  1. SSH: sudo apt-get install ssh"
   echo "  2. Screen: sudo apt-get install screen"
   echo "  3. More To Come"
+  
+# [i]nfo Section On Dev. #
 elif [ "$RESP" = "i" ]; then
   echo "Coded By: Proteu5"
+
+# # # EDIT Below As-Per Your Specific FileSystem Structure            # # #
+# # # elif = else if conditional command                              # # #
+# # # [ "$RESP" = "zus1" ]; then = User Input Field & 'Then' Command  # # #
+# # # Change "zus1" To Your Own Desired Command: 001 or Miner01 etc.  # # #
+# # # echo "Running..." = A Breif Display Of Text, Good For Debugging # # #
+# # # (sudo ./zus1.sh) = The *.Sh File You Wish To Run                # # #
+# # # If LS-0.0.2.sh Is in /root/ and so are your *.sh's follow this  # # #
+# # # Else, If your *.sh's are elsewhere: "cd /root/bfgminer/" needed # # #
 elif [ "$RESP" = "zus1" ]; then
    echo "Running ZeusMiner-001"
    (sudo ./zus1.sh)
@@ -90,4 +112,5 @@ elif [ "$RESP" = "BTC0" ]; then
    `(gnome-terminal -e sudo /home/orion/Desktop/LeviticusSeed/ exec ./BitParkingBTCNMCDEVOrionPrime.sh)`
 else
   echo "ERROR: We need more bash programming"
+  ./LS-0.0.2.sh #Looping Program On Error
 fi

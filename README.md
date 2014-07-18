@@ -13,7 +13,7 @@ If you know some .Bash code I'm sure you will find this useful; If not please be
 <b>Usage:</b>
 =============
 <br>
-  <b><i>Option-A:</i></b><br>
+  <b><i>Option-A (Copy & Paste):</i></b><br>
     &nbsp;1. Enter GitHub Source Of LS-0.0.2.sh<br>
     &nbsp;2. Select All & Copy<br>
     &nbsp;3. In Terminal Of Linux -or RaspberryPi<br>
@@ -25,7 +25,7 @@ If you know some .Bash code I'm sure you will find this useful; If not please be
       &nbsp; &nbsp; &nbsp;F. Premissions: <i>chmod +x LS.sh</i><br>
       &nbsp; &nbsp; &nbsp;G. Run: <i>./LS.sh</i> or <i>sudo ./LS.sh</i><br>
   
- <b><i>Option-B:</i></b><br>
+ <b><i>Option-B (Git Clone):</i></b><br>
      &nbsp;1. <i>git clone https://github.com/Proteu5/LeviticusSeed.git</i><br>
      &nbsp;2. <i>cd LeviticusSeed</i><br>
      &nbsp;3. Premissions: </i>chmod +x LS-0.0.2.sh</i><br>
@@ -34,7 +34,7 @@ If you know some .Bash code I'm sure you will find this useful; If not please be
      &nbsp; &nbsp; &nbsp; A. Don't Forget To Set Premission To Executable<br>
      &nbsp;6. <i>./LS-0.0.2.sh</i><br>
   
-  <b><i>Option-C:</i></b><br>
+  <b><i>Option-C (~/.bashrc Terminal-AutoRun):</i></b><br>
     <i>&nbsp;X. UnStable But Possible</i><br>
      &nbsp;1. <i>sudo nano ~/.bashrc</i><br>
      &nbsp;2. @Bottom: <i>/root/LeviticusSeed/.LS-0.0.2.sh</i><br>

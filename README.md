@@ -8,22 +8,22 @@ Currently In Pre-Beta & Was Coded For Personal Use
 Public Version Coming Soon
 <br>
 If you know some .Bash code I'm sure you will find this useful; If not please be patient as I finish the beta
-<br><br>
+
 ============
 <b>Usage:</b>
 =============
 <br>
   <b><i>Option-A:</i></b><br>
-    1. Enter GitHub Source Of LS-0.0.2.sh<br>
-    2. Select All & Copy<br>
-    3. In Terminal Of Linux -or RaspberryPi<br>
-      A. cd<br>
-      B. nano LS.sh<br>
-      C. (Paste Entire Source)<br>
-      D. Save: Ctrl + O<br>
-      E. Exit: Ctrl + X<br>
-      F. Premissions: chmod +x LS.sh<br>
-      G. Run: ./LS.sh or sudo ./LS.sh<br>
+    &nbsp;1. Enter GitHub Source Of LS-0.0.2.sh<br>
+    &nbsp;2. Select All & Copy<br>
+    &nbsp;3. In Terminal Of Linux -or RaspberryPi<br>
+      &nbsp; &nbsp;A. cd<br>
+      &nbsp; &nbsp;B. nano LS.sh<br>
+      &nbsp; &nbsp;C. (Paste Entire Source)<br>
+      &nbsp; &nbsp;D. Save: Ctrl + O<br>
+      &nbsp; &nbsp;E. Exit: Ctrl + X<br>
+      &nbsp; &nbsp;F. Premissions: chmod +x LS.sh<br>
+      &nbsp; &nbsp;G. Run: ./LS.sh or sudo ./LS.sh<br>
   
  <b><i>Option-B:</i></b><br>
     1. git clone https://github.com/Proteu5/LeviticusSeed.git<br>

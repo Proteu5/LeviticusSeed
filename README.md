@@ -9,9 +9,9 @@ Public Version Coming Soon
 <br>
 If you know some .Bash code I'm sure you will find this useful; If not please be patient as I finish the beta
 <br>
-  <center>
+  <p align="center">
     <img src="http://i.imgur.com/KaFxyJf.png">
-  </center>
+  </p>
 ============
 <b>Usage:</b>
 =============

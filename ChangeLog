@@ -1,0 +1,20 @@
+...:::Future Beta Release:::...
+
+LeviticusSeed-0.0.3 (Coming Soon...)
+
+  1. Control Panal Loop To Avoid Relaunching './LS.sh'
+  2. Ease Of Use & Stability For Use In ~/.bashrc Terminal: AutoRun
+  3. Built-In *.Sh File Creator/Editor To Generate Script Files In Root or Local LeviticusSeed Directory
+
+
+LeviticusSeed-0.0.2
+  - Added Control Panal [l]ist [g]uide [h]elp [i]nfo
+  - Added Comments
+  - Semi-Stability
+  - Error Loop
+  - Known ./sh Launcher Bugs (Fixing For Beta)
+  
+LeviticusSeed-0.0.1
+  - Added ASCII Art
+  - Added Date & Unix Time Stamp
+  - Added *.sh File Launcher With $RESP

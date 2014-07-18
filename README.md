@@ -17,13 +17,13 @@ If you know some .Bash code I'm sure you will find this useful; If not please be
     &nbsp;1. Enter GitHub Source Of LS-0.0.2.sh<br>
     &nbsp;2. Select All & Copy<br>
     &nbsp;3. In Terminal Of Linux -or RaspberryPi<br>
-      &nbsp; &nbsp;A. cd<br>
-      &nbsp; &nbsp;B. nano LS.sh<br>
-      &nbsp; &nbsp;C. (Paste Entire Source)<br>
-      &nbsp; &nbsp;D. Save: Ctrl + O<br>
-      &nbsp; &nbsp;E. Exit: Ctrl + X<br>
-      &nbsp; &nbsp;F. Premissions: chmod +x LS.sh<br>
-      &nbsp; &nbsp;G. Run: ./LS.sh or sudo ./LS.sh<br>
+      &nbsp; &nbsp; &nbsp;A. cd<br>
+      &nbsp; &nbsp; &nbsp;B. nano LS.sh<br>
+      &nbsp; &nbsp; &nbsp;C. (Paste Entire Source)<br>
+      &nbsp; &nbsp; &nbsp;D. Save: Ctrl + O<br>
+      &nbsp; &nbsp; &nbsp;E. Exit: Ctrl + X<br>
+      &nbsp; &nbsp; &nbsp;F. Premissions: chmod +x LS.sh<br>
+      &nbsp; &nbsp; &nbsp;G. Run: ./LS.sh or sudo ./LS.sh<br>
   
  <b><i>Option-B:</i></b><br>
     1. git clone https://github.com/Proteu5/LeviticusSeed.git<br>
